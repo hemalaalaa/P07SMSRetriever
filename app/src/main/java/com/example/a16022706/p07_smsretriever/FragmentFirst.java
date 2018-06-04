@@ -40,6 +40,7 @@ public class FragmentFirst extends Fragment {
         etInput = (EditText) view.findViewById(R.id.editTextFrag1);
         btnRetrieve = (Button) view.findViewById(R.id.btnAddTextFrag1);
 
+
         btnRetrieve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
